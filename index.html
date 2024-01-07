@@ -28,7 +28,7 @@
         }
     
         .bulleted-text {
-            margin-top: 20px;
+            margin-top: 40px;
             text-align: left;
             color: #ffffff;
             width: 100%; /* Make it span the entire width */
@@ -36,14 +36,23 @@
         }
     
         .bulleted-text ul {
-            list-style-type: none; /* Remove default bullet points */
+            /* list-style-type: none; Remove default bullet points */
             padding: 0; /* Remove default padding */
         }
     
         .bulleted-text li {
             margin-bottom: 10px; /* Adjust the spacing between list items */
-            text-align: center; /* Center the text within list items */
+            /* text-align: center; Center the text within list items */
         }
+
+        .blockquote {
+            font-size: 1.5em; /* Adjust the font size as needed */
+        }
+        
+        .yellow_text {
+            color: #fbdb6b;
+        }
+
     </style>
 
 
@@ -52,8 +61,18 @@
 
 <div class="container landing-container">
     <img src="Color_logo_with_background.svg" alt="gift list assist logo" class="landing-image img-fluid">
+    
     <div class="bulleted-text">
-        <h3>Why use gift list assist?</h3>
+        <h2 class="yellow_text">What is gift list assist?</h2>
+        <ul>
+            <li>Its a service that lets you share wish lists with relevant people - like your family or friends.</li>
+            <li>They can see the kind of presents you want and vice versa.</li>
+            <li>You can then select the gifts you intend to give but only the other group members will see that, not the recipient.</li>
+        </ul>
+    </div>
+    
+    <div class="bulleted-text">
+        <h2 class="yellow_text">Why use gift list assist?</h2>
         <ul>
             <li>Make giving and receiving gifts easier.</li>
             <li>Give friends and family gifts they really want.</li>
@@ -61,7 +80,25 @@
             <li>Reduce unwanted presents.</li>
             <li>Get gift recommendations.</li>
             <li>Keep track of costs.</li>
+            <li>Receive customised reminder emails.</li>
+            <li>No more messy email chains.</li>
         </ul>
+    </div>
+
+    <div class="bulleted-text">
+        <h2 class="yellow_text">Does it work?</h2>
+        <blockquote class="blockquote">
+            <p class="mb-0">"This took the stress out of buying gifts and had the advantage of getting something they actaully wanted, rather than ending up in a charity bag!"</p>
+            <footer class="blockquote-footer yellow_text"">Early beta tester <cite title="Source Title">aka My Mum</cite></footer>
+        </blockquote>
+        <blockquote class="blockquote">
+            <p class="mb-0">"It's SO helpful when you can view ideas about the presents your family members actually want - and of course, post your own. A great idea - which works really well!"</p>
+            <footer class="blockquote-footer yellow_text"">Early beta tester <cite title="Source Title">aka My Dad</cite></footer>
+        </blockquote>
+
+    </div>
+    <div class="bulleted-text">
+        <h2 class="yellow_text">What now?</h2>
     </div>
     <div class="email-input">
         <div id="mc_embed_shell">
@@ -73,7 +110,7 @@
       </style>
       <div id="mc_embed_signup">
           <form action="https://dev.us11.list-manage.com/subscribe/post?u=1d1197edc5602f2ce77703352&amp;id=d0d13bfa60&amp;f_id=00969ce0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-              <div id="mc_embed_signup_scroll"><h2>Sign up to the waitlist!</h2>
+              <div id="mc_embed_signup_scroll"><h2>Sign up to the waitlist to be amongst the first users when we launch!</h2>
                   <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                   <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""><span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span></div>
               <div id="mce-responses" class="clear foot">
